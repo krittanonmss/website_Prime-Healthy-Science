@@ -1,0 +1,9 @@
+/* Content remains readable when scripting, observers, or animation fail. */
+.reveal{opacity:1;transform:none}
+.section-number{color:#526b5c}
+.product-meta,.product-count,.product-info>p,.product-bottom span,.catalog-note{color:#506458}
+.collection-copy p,.principle-list article>span,.principle-list p{color:#506458}
+.collection-card .collection-copy>p:not(.category){color:#506458}
+.contact .eyebrow.light,.contact .label{color:#e9f4c7}
+.contact-copy>p:not(.eyebrow),.contact .detail-row>span{color:#fff}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
