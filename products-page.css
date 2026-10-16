@@ -43,3 +43,16 @@
 .product-order-reference summary:focus-visible{outline:2px solid #788565;outline-offset:4px}
 .product-order-reference p{margin:.6rem 0 0;font-size:.72rem}
 .product-order-reference strong{font-weight:500;letter-spacing:.04em}
+
+/* Profine nutrition guidance. */
+.profine-balance{background:#f3eef6;border-top:1px solid #e5dce9}
+.balance-heading{max-width:780px}.balance-heading>p:last-child{color:#62566b;line-height:1.9}
+.balance-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin-top:2.5rem}
+.balance-grid article{background:#fff;border:1px solid #e6dfea;border-radius:10px;padding:1.75rem}
+.balance-number{font-size:.7rem;letter-spacing:.06em;color:#7b618c}
+.balance-grid h3,.balance-routine h3{font-size:1.15rem;line-height:1.6;color:#493056;margin:.9rem 0 .75rem}
+.balance-grid p{font-size:.9rem;line-height:1.95;color:#62566b;margin:0}
+.balance-routine{margin-top:1.5rem;padding:1.5rem 1.75rem;border-left:3px solid #9272a3;background:#ebe3f0;border-radius:0 8px 8px 0}
+.balance-routine h3{margin-top:0}.balance-routine ul{display:flex;flex-wrap:wrap;gap:.75rem 2rem;padding-left:1.2rem;margin-bottom:0;font-size:.85rem;line-height:1.8;color:#55445f}
+.profine-balance .balance-note{font-size:.75rem;line-height:1.9;color:#716479;margin:1.5rem 0 0}
+@media(max-width:900px){.balance-grid{grid-template-columns:1fr}.balance-grid article{padding:1.4rem}.balance-routine{padding:1.4rem}.balance-routine ul{display:block}.balance-routine li+li{margin-top:.5rem}}
